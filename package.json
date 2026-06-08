@@ -1,0 +1,11 @@
+{
+  "name": "cont",
+  "version": "1.0.0",
+  "private": true,
+  "description": "cont — console-pasteable agentic page assistant powered by Gemini",
+  "scripts": {
+    "build": "node build.js",
+    "min": "node build.js --minify",
+    "proxy": "node proxy.js"
+  }
+}
