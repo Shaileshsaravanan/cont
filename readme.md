@@ -4,12 +4,11 @@ needs a lot of fixes and polishing.
 
 to run:
 
-1. paste this entire file into any browser's console.
-2. set your Gemini API key: GEMINI_KEY = "your-api-key"
-3. set your Gemini proxy: CONT_PROXY = "http://localhost:8080"
-4. start cont: you = "your message here"
+1. set your Gemini API key: GEMINI_KEY = "your-api-key" in cont.js
+2. run the proxy.js using node
+3. paste cont.js into any browser's console.
 
 to quit:
 
-1. type: you = "/exit"
+1. type: /exit
 2. press enter
